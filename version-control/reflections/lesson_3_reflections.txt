@@ -2,3 +2,7 @@ Q_1: When would you want to use a remote repository rather than keeping all your
   A: In order to share my work with other people or collarborate with other developers on
   the same project, I have to use a remote repo instead of keeping all files local. Moreover,
   when I want to backup some important files, I will also use a remote repo.
+
+Q_2: What is the benefit of having a copy of the last known state of the remote stored locally?
+  A: When there is no internet connection, I can still view, modify and commit the changes made 
+  by other contributors.
