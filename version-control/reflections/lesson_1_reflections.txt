@@ -1,0 +1,90 @@
+Q_1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	A: The differences between two versions of the file are shown. I don't have to manually inspect the 
+	differences. It is efficient and simple. 
+
+Q_2: How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+	A: When I am constantly changing the file, I am not sure if the new file will function properly. So
+	in case I find problems in my recent change and want to restore the old version, having easy access
+	to the recent version of the file will tremendously help. Moreover, having easy access to the entire 
+	history of a file will also allow me to compare different versions of it. If I changed the file becuase
+	I want it to have some different functions, then I can compare different functions of a program.
+
+Q_3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in 
+Git, vs having versions automatically saved, like Google Docs does?
+	A: pro are those commit will make a lot more sense since a new version is saved when a new logical
+	change is done to the file. However, the con of it is it may be forgetable. If I make a significant
+	change to the file and forget to store the new version, then the machine breaks down, the outcome may be
+	fital.
+
+Q_4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+	A: For the version control systems like Git, it allow users to save multiple files in one commit because
+	it is mainly used by programmers to control different versions of scripts. It is very often that a program
+	will comprise multiple scripts because a program is often made up by several different functions (assume 
+	that one function is writen in one script); On the contrary, other vc. systems like Google Docs is mainly 
+	used for saving usual texts. They are normally stored in independent text files. Thereforem those vc. systems
+	treat each file separately.
+
+Q_4: How can you use the commands git log and git diff to view the history of files?
+	A: The process is as follow.
+	1. $ cd /the target dir/
+	2. $ git log
+	3. scroll down and find the targeted commits
+	4. copy and paste the commit IDs
+	5. $ git diff <first ID> <second ID>
+	6. view the result, additions are shown in green color while deletions are shown in red
+
+Q_5: How might using version control make you more confident to make changes that could break something?
+	A: Once I use version control, I can confidently make changes to the files without worrying breaking 
+	anything becuase even I do, I can easily go back to the previous version, find out where the problem
+	occurs and fix it.
+
+Q_6: Now that you have your workspace set up, what do you want to try using Git for?
+	A: To do version control. Better organize different commits of a repo of mine. Also, to learn how to use
+	GitHub in order to collaborate with other programmers and share my courses notes and exercises.
+
+Q_7: Usages of the four git command taught in lesson 1
+	git diff (It takes two arguments - the two commit ids to compare)
+	git clone (It takes one argument - the url of the repository to copy)
+	git checkout (It takes one argument - the commit ID to restore)
+	git log (It doesn't take any arguments)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

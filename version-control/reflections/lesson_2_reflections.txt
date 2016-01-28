@@ -1,0 +1,39 @@
+Q_1: What happens when you initialize a repository? Why do you need to do it?
+	A: When I initialize a repository, a hidden dir called .git is created. And an ordinary dir is transformed
+	to a git directory. After that I can use git command to manipulate this repo, add commits and modify different
+	differnet versions. I have to do this becuase it is by this way that I create my own git repo. I can use the 
+	git v.c. system to keep track on my repo later on.
+
+Q_2: How is the staging area different from the working directory and the repository? What value do you think 
+it offers?
+	A: Remember the 3-tree-architecture that Caroline presented. The files in the staging area are the same as
+	those in the HEAD (not the tip of a branch). When no change is made, the files in the work dir are also the 
+	same. But when users want to make changes to the project, he/she has to first make changes to the files in
+	the work dir. Then add those files to the staging area, finally commit the change to the repo.
+	The staging area, in accordance to the lectures, allows user to create commits for 
+	selected files in the working dir instead of the entire working dir.
+
+Q_3: How can you use the staging area to make sure you have one commit per logical change?
+	A: When I make a few logical changes and I want to commit them seperately, I will first add those files within
+	the same logical change into the staging area. Then commit. Now the latest commit in the repo will only contains
+	changes in those files having been selected to be added to the staging area while the other files will not contains
+	any change (though they may have been changed in the working dir). Next repeat this procedure for other files
+	within the other logical change and commit. By this way I make sure I have one commit per logical change.
+
+Q_4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	A: When I want to create several different versions but not to affect the offical one, I create branches. After
+	creating a branch, I then can check it out, commit a change to it. This commit will not affect other branches.
+
+Q_5: How do the diagrams help you visualize the branch structure?
+	A: The diagrams are essentially a visualization of the branch structure. 
+	I can use the command:
+	git log --graph --oneline <branch_1> <branch_2> <branch_3> ...
+	to show the diagrams
+
+Q_6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	A: Both the additions and deletions to the original commit from the two branches are done to that commit. Now
+	when type git log in the command line, I can view both changes from the two branches. 
+
+Q_7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	A: automatic merging will ease the merging process a great deal by having user not manipluate different pieces
+	of code manually, which is often a tedious work. But it may run into conflicts and need users to deal with it.
