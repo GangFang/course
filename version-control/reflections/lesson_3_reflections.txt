@@ -2,3 +2,19 @@ Q_1: When would you want to use a remote repository rather than keeping all your
   A: In order to share my work with other people or collarborate with other developers on
   the same project, I have to use a remote repo instead of keeping all files local. Moreover,
   when I want to backup some important files, I will also use a remote repo.
+
+Q_2: Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+	A: Because Github would not have bothered to sync every commit automatically. Also, I don't
+	want to pull changes that are only small parts of any significant change.
+
+Q_3: Why do I have to fork any repo on GitHub?
+	A: The reason I forked in the first place is because you don't have permission to change 
+Larry's repository
+
+Q_4: Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+	A: When I clone someone's repo to my Github server, I fork;
+	when I copy any repo from github or local, I clone;
+	when I want to make new changes that will not affect the original project, I use branches.
+
