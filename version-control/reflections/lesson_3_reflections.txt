@@ -18,3 +18,7 @@ instead of another?
 	when I copy any repo from github or local, I clone;
 	when I want to make new changes that will not affect the original project, I use branches.
 
+Q_5: What is the benefit of having a copy of the last known state of the remote stored locally?
+  A: When there is no internet connection, I can still view, modify and commit the changes made 
+  by other contributors.
+
