@@ -19,6 +19,26 @@ instead of another?
 	when I want to make new changes that will not affect the original project, I use branches.
 
 Q_5: What is the benefit of having a copy of the last known state of the remote stored locally?
-  A: When there is no internet connection, I can still view, modify and commit the changes made 
-  by other contributors.
+	A: When there is no internet connection, I can still view, modify and commit the changes made 
+    by other contributors.
 
+Q_4: How would you collaborate without using Git or GitHub? What would be easier, and what would 
+be harder?
+	A: I would have to copy my files in a project and send to my collaborators via emails. Then 
+	after they make changes, they would send them back to me. I again check and modify, and send... 
+	This may avoid the technical issues using Git and GitHub, but the whole process becomes untraceable.
+	Using Git and GitHub can centrelize the merging process, all developers in the team can view the 
+	request and comment on it in one place, hence make it smoother.
+
+Q_5: Describe the workflow when making changes in a separate branch.
+	A: you need to pull changes into your local master branch, merge the local master into your branch 
+	(different-oil, in our case), then push your branch to the remote before finally merging your branch 
+	into master, either locally or on GitHub.
+
+Q_6: When would you want to make changes in a separate branch rather than directly in master? What 
+benefits does each approach have?
+	A: When I am working on a new feature, doing some experimental work or simply debugging, I would 
+	want to make changes in a separate branch rather than directly in master. This is becuase all I do
+	to the separate branch will not affect the master branch so that I need not to care if I would 
+	introduce any error when making changes, which allows me to explore and try out different things.
+	But con of not directly modifying the master branch is that makes thing a little bit more "complicated".
